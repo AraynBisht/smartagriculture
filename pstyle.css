@@ -1,0 +1,99 @@
+/* General Navbar Styles */
+.navbar {
+    background-color: #4CAF50; /* Primary background */
+    padding: 15px; /* Add some padding */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make the brand name bold */
+    font-size: 1.5rem; /* Increase the font size */
+    color: white; /* Brand color */
+}
+
+.nav-link {
+    color: white; /* Link color */
+    font-weight: 500; /* Medium font weight */
+    transition: color 0.2s; /* Transition for hover effect */
+}
+
+.nav-link:hover {
+    color: #d1e0ff; /* Change color on hover */
+}
+
+.nav-item.active .nav-link {
+    color: #d1e0ff; /* Active link color */
+    font-weight: bold; /* Bold for active link */
+}
+
+/* Container Styles */
+.container {
+    padding: 40px 0; /* Add padding around the container */
+}
+
+.text-center {
+    text-align: center; /* Center text for headers and paragraphs */
+}
+
+/* Card Styles */
+.card {
+    margin-bottom: 30px; /* Spacing between cards */
+    border: 1px solid #dee2e6; /* Border color */
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Add some shadow */
+}
+
+.card-header {
+    background-color: #4CAF50; /* Card header background */
+    color: white; /* Card header text color */
+    font-weight: bold; /* Bold text */
+}
+
+.card-title {
+    margin-bottom: 20px; /* Add some space below title */
+    font-size: 1.25rem; /* Increase font size */
+    color: #343a40; /* Title color */
+}
+
+.card-body ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+}
+
+.card-body li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #4CAF50; /* Button color */
+    border-color: #4CAF50; /* Button border color */
+}
+
+.btn-primary:hover {
+    background-color: #4CAF50; /* Darker on hover */
+    border-color: #4CAF50; /* Darker border on hover */
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px 0; /* Padding for footer */
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* Footer text color */
+}
+
+footer h5 {
+    font-weight: bold; /* Make footer headings bold */
+}
+
+footer .text-uppercase {
+    text-transform: uppercase;
+    width: 100%;
+}
+
+footer a {
+    color: #d1e0ff; /* Footer link color */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
